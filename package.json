@@ -1,16 +1,26 @@
 {
-  "name": "arc",
+  "name": "archive",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dvkoh.github.io/archive",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-draggable": "^3.2.1",
+    "react-image-gallery": "^0.8.14",
+    "react-newline-to-break": "^1.0.6",
+    "react-onclickoutside": "^6.8.0",
+    "react-responsive": "^6.1.1",
+    "react-scripts": "2.1.8",
+    "tabletop": "^1.5.2",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -21,5 +31,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
