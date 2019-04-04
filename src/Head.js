@@ -35,7 +35,7 @@ class Head extends React.Component{
 			
 							<p className='w-25 pl4 pr4 tj'>Majoring in design, I've always been fond of all things that look and feel good.
 								<br/><br/>As an aspiring design researcher, I'm currently interested in the user-led exploration of novel technologies. 
-								<span className='white'> However this page does seem not look or feel good at all :)</span></p>
+								</p>
 							
 							<p className='w-25 pl4 mr5 tj'>* <a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://id.kaist.ac.kr'>Department of Industrial Design, KAIST</a>, MSc(-ing)
 								<br/>* Researcher member at <a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://cixd.kaist.ac.kr'>CIxD Lab</a>
@@ -52,7 +52,8 @@ class Head extends React.Component{
 							
 							<p className='w-50 pl4 pr4 tj'>Majoring in design, I've always been fond of all things that look and feel good.
 								<br/><br/>As an aspiring design researcher, I'm currently interested in the user-led exploration of novel technologies. 
-								<span className='white'> However this page does seem not look or feel good at all :)</span></p>
+								<br/><br/><span className='white'>Honest to god this page looks and works better in full screen.</span>
+								</p>
 					</div>
 				</MediaQuery>
 			</MediaQuery>	

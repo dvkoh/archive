@@ -37,6 +37,7 @@ class Card extends React.Component{
 			
 			<div>
 			<MediaQuery minDeviceWidth={700}>
+			
 					<Draggable
 				    handle=".handle"
 				    defaultPosition={{x:info[5], y:info[6]}}
