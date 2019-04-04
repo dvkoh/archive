@@ -24,7 +24,6 @@ class CardList extends React.Component{
 		const click =()=> {
 			mouseCount++;
 			this.setState({mCount: mouseCount});
-			console.log('mouse: '+this.state.mCount);
 		}
 
 		this.props.DyBase.sort(dynamicSort('Year'));

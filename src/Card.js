@@ -14,10 +14,6 @@ class Card extends React.Component{
 			mCount:'0'
 		};
 	}
-	
-	// handleClickOutside=evt=>{
-	// 	this.setState({toggle:false});
-	// }
 
 	render(){
 		const click =()=> {
@@ -33,12 +29,7 @@ class Card extends React.Component{
 
 		const toTop=()=>{
 			this.state.mCount=this.props.mCount;
-			console.log('c'+this.state.mCount)
 		}
-
-		// onchange of selector, reset to blue
-		// const toBlue=()=>{this.setState({clicked:false})
-
 		
 		const info =[this.props.Title, this.props.MainKW, this.props.SubKW, this.props.Content, this.props.Year, this.props.PosX, this.props.PosY, this.props.Num, this.props.url];
 
