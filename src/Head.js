@@ -60,14 +60,14 @@ class Head extends React.Component{
 			</div>
 			<MediaQuery maxDeviceWidth={700}>
 
-					<div className='roboto-400 f5 ml3 line-height pt3 '>
+					<div className='roboto-400 f5 pl3 lline-height pt3'>
 					    <div className=''>						
 							<div className='black-text frame-momo'>
 								<p className='f3'>Dong Yoon <span className='roboto-700'>Koh</span> </p>
-								<p className='pt4 tj'>Majoring in design, I've always been fond of all things that look and feel good.
+								<p className='pt4'>Majoring in design, I've always been fond of all things that look and feel good.
 									Now, as an aspiring design researcher, I'm currently interested in the user-led exploration of novel technologies. 
 									<br/><br/>This page is an archive of my design works and experiences. Honest to god it looks and works better on PC.
-									<br/><br/>&nbsp;&nbsp;☞ <a target="_blank" href='resume.pdf'className=''>Resume</a>
+									<br/><br/><br/>&nbsp;&nbsp;☞ <a target="_blank" href='resume.pdf'className=''>Resume</a>
 									<br/>&nbsp;&nbsp;☞&nbsp;<a target="_blank" href='https://www.linkedin.com/in/dvkoh/'className=''>LinkedIn</a>
 									<br/>&nbsp;&nbsp;☞&nbsp;<a target="_blank" href='https://www.instagram.com/dvkoh/'className=''>Instagram</a>
 								</p>
