@@ -48,6 +48,7 @@ class Main extends Component{
 	      },
 	      simpleSheet: true
 	    })
+	    // window.open("https://i.ibb.co/VtZq1nW/mm.gif", "PopupWin", "width=375,height=150,top=300,left=15");
 	}
 	componentWillUnmount() {window.removeEventListener('scroll', this.handleScroll);}
 	handleScroll(event) {

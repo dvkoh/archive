@@ -54,7 +54,7 @@ class Card extends React.Component{
 								<p>
 									*&nbsp;<span className={this.state.toggle? 'invisible':''} title='drag'>{`${info[4]}`}_{`${info[1]}`}</span>&nbsp;
 									<span className='f4 pointer'>
-									<span className={this.state.underline? 'underline':''} onClick={click} onMouseOver={hoverIn} onMouseLeave={hoverOut}>
+									<span className={this.state.underline? 'underline pointer':''} onClick={click} onMouseOver={hoverIn} onMouseLeave={hoverOut}>
 										{this.state.toggle? '[close]':'[open]'}
 									</span>
 									</span>
