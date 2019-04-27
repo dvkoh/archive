@@ -29,7 +29,6 @@ class Selector extends Component{
 			<div className='abBot roboto-400 f4 ml4 custom-select black-text'>
 			
 				<select id='Category' name='Category' size='0' className={this.state.underline1? 'no-back roboto-700 blue-text underline cursor-pointer':'no-back roboto-700 blue-text cursor-pointer'} defaultValue='work' onChange={func1} onMouseEnter={hoverIn1} onMouseLeave={hoverOut1}>
-					<option value='all' className='big-text black'> all</option>
 					<option value='work' className='big-text black'> work</option>
 					<option value='wip' className='big-text black'> wip</option>
 					<option value='stuff' className='big-text black'> stuff</option>
