@@ -29,10 +29,10 @@ class Selector extends Component{
 			<div className='abBot roboto-400 f4 ml4 custom-select black-text'>
 			
 				<select id='Category' name='Category' size='0' className={this.state.underline1? 'no-back roboto-700 blue-text underline cursor-pointer':'no-back roboto-700 blue-text cursor-pointer'} defaultValue='work' onChange={func1} onMouseEnter={hoverIn1} onMouseLeave={hoverOut1}>
-					<option value='--' className='big-text black'> --</option>
 					<option value='all' className='big-text black'> all</option>
 					<option value='work' className='big-text black'> work</option>
-					<option value='log' className='big-text black'> log</option>
+					<option value='wip' className='big-text black'> wip</option>
+					<option value='stuff' className='big-text black'> stuff</option>
 				</select>&nbsp;/&nbsp;
 				<select id='SubCategory' name='SubCategory' size='0' className={this.state.underline2?'no-back blue-text underline cursor-pointer':'no-back blue-text cursor-pointer'} defaultValue='recent' onChange={func2} onMouseEnter={hoverIn2} onMouseLeave={hoverOut2}>
 					<option value='all' className='big-text black'> all</option>

@@ -16,7 +16,7 @@ class Main extends Component{
 		this.handleScroll = this.handleScroll.bind(this);
 		this.state={
 			searchfield1:'work',
-			searchfield2:'recent',
+			searchfield2:'all',
 			bbMove:true,
 			data:[]
 		}
@@ -86,7 +86,7 @@ class Main extends Component{
 				<div className='yb-mo'></div>
 				<Head/>
 				<div className=''>
-					<ListList DyBase={data}/>
+					<ListList DyBase={filterData}/>
 				</div>
 				<ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
 				<HeadName/>
