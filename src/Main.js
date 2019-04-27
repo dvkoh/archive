@@ -16,7 +16,7 @@ class Main extends Component{
 		this.handleScroll = this.handleScroll.bind(this);
 		this.state={
 			searchfield1:'work',
-			searchfield2:'all',
+			searchfield2:'recent',
 			bbMove:true,
 			data:[]
 		}
