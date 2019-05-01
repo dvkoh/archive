@@ -38,7 +38,7 @@ class List extends React.Component{
 				    	<div id={`card${info[7]}`}  className='roboto-400 black-text card-width-mo'>
 							<div className={this.state.clicked? 'purple-text':'blue-text'}>
 								<p className='f3'>
-									<span className='pb4'>*</span>&nbsp;<span className={this.state.toggle? 'invisible':''} title='drag'>{`${info[4]}`}_{`${info[1]}`}</span>&nbsp;
+									<span className='pb4'>...</span>&nbsp;<span className={this.state.toggle? 'invisible':''} title='drag'>{`${info[4]}`}_{`${info[1]}`}</span>&nbsp;
 									<span className='f6 pointer'>
 									<span className={this.state.underline? 'underline':''} onClick={click} onMouseOver={hoverIn} onMouseLeave={hoverOut}>
 										{this.state.toggle? '[close]':'[open]'}

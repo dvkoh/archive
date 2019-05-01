@@ -26,7 +26,7 @@ class ListList extends React.Component{
 					key={i}
 					Num={i}
 					PosX={15}
-					PosY={660+(2019-this.props.DyBase[i].Year)*50}
+					PosY={675+(2019-this.props.DyBase[i].Year)*50}
 					Code={this.props.DyBase[i].Code} 
 					Year={this.props.DyBase[i].Year} 
 					Category={this.props.DyBase[i].Category} 
