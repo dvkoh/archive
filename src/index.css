@@ -69,7 +69,7 @@ img{pointer-events: none;}
   height: 250vh;
 }
 
-.card-width{width: 320px;}
+.card-width{width:320px;}
 .img-position{width: 320px;}
 
 /*roboto-font*/
@@ -78,12 +78,13 @@ img{pointer-events: none;}
 
 /*selector*/
 .abBot{position: fixed; bottom: 30px; z-index: 1000;}
+.m-abBot{position: absolute; top:600px; z-index: 1000;}
 
 .underline{text-decoration: underline;}
 .cursor-pointer{cursor: pointer;}
 .no-back{background-color: rgba(0,0,0,0);}
 .rotate{transform: rotate(-90deg);}
-.direction{position: absolute;top:280px;left:290px;}
+.direction{position:absolute;top:280px;left:290px;}
 
 /*up*/
 .ab-up{
@@ -111,3 +112,5 @@ select{border: none;appearance: none;}
 
 .z100{position:absolute; z-index: 100; background-color: red}
 .z1{position:absolute; z-index: 1;}
+
+/*.footblk{position:sticky; bottom: 0px; height: 50px;}*/

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Head from './Head';
 import HeadName from './HeadName';
 import Selector from './Selector';
+import MSelector from './MSelector';
 import CardList from './CardList';
 import ListList from './ListList';
 
@@ -86,9 +87,10 @@ class Main extends Component{
 				<div className='yb-mo'></div>
 				<Head/>
 				<div className=''>
-					<ListList DyBase={filterData}/>
+					<ListList sF1={this.state.searchfield1} sF2={this.state.searchfield2} DyBase={filterData}/>
+					<MSelector searchChange1={this.onSearchChange1} searchChange2={this.onSearchChange2} searchRefresh={this.onSearchRefresh}/>		
 				</div>
-				<ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
+				<ScrollButton scrollStepInPx="50" delayInMs="8"/>
 				<HeadName/>
 			</MediaQuery>
 		</div>
