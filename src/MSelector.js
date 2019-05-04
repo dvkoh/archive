@@ -26,7 +26,7 @@ class MSelector extends Component{
 		const hoverOut3 =()=> {if(this.state.underline3 === true)this.setState({underline3:false});}
 
 		return(
-			<div className='m-abBot roboto-400 f3 ml3 custom-select black-text pb6'>
+			<div className='m-abBot roboto-400 f3 ml3 custom-select black-text pb5'>
 				:&nbsp;
 				<select id='Category' name='Category' size='0' className={this.state.underline1? 'no-back roboto-700 blue-text underline cursor-pointer':'no-back roboto-700 blue-text cursor-pointer'} defaultValue='work' onChange={func1} onMouseEnter={hoverIn1} onMouseLeave={hoverOut1}>
 					<option value='work' className='big-text blue'> work</option>
