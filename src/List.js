@@ -35,7 +35,7 @@ class List extends React.Component{
 				    onStart={List.handleStart}
 				    onDrag={List.handleDrag}
 				    onStop={List.handleStop}>
-				    	<div id={`card${info[7]}`}  className='roboto-400 black-text card-width-mo'>
+				    	<div id={`card${info[7]}`}  className='roboto-400 black-text card-width-mo list-z'>
 							<div className={this.state.clicked? 'purple-text':'blue-text'}>
 								<p className='f3'>
 									<span className='pb4'>...</span>&nbsp;<span className={this.state.toggle? 'invisible':''} title='drag'>{`${info[4]}`}_{`${info[1]}`}</span>&nbsp;

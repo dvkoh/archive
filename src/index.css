@@ -78,7 +78,8 @@ img{pointer-events: none;}
 
 /*selector*/
 .abBot{position: fixed; bottom: 30px; z-index: 1000;}
-.m-abBot{position: absolute; top:600px; z-index: 1000;}
+.m-abBot{position: absolute; top:600px; z-index: 1;}
+.list-z{z-index: 2;}
 
 .underline{text-decoration: underline;}
 .cursor-pointer{cursor: pointer;}
