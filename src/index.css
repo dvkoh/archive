@@ -1,4 +1,5 @@
 html{
+  cursor: url(mouse.png) 15 20, auto;
 }
 body {
   margin: 0;
@@ -10,7 +11,7 @@ body {
 
 /*head*/
 a{text-decoration: none; color: blue;}
-a:hover{text-decoration: underline;}
+a:hover{text-decoration: underline; cursor: url(click.png) 63 60, pointer;}
 .line-height{line-height: 20px;}
 .no-line-height{line-height: 35px}
 .invisible{color:rgba(0,0,0,0);}
@@ -54,11 +55,14 @@ img{pointer-events: none;}
 .purple-text{color: purple;}
 
 .pointer{
-  cursor: pointer; 
+  cursor: url(click.png) 52 14, pointer; 
   }
 .mover{
   position: absolute;
-  cursor: move;
+  cursor: url(move.png) 63 60, move;
+}
+.clicker{
+  cursor: url(mouse.png) 15 20, default;   
 }
 .bottom{
   position: absolute; 
@@ -82,7 +86,7 @@ img{pointer-events: none;}
 .list-z{z-index: 2;}
 
 .underline{text-decoration: underline;}
-.cursor-pointer{cursor: pointer;}
+.cursor-pointer{cursor: url(click.png) 52 14,pointer;}
 .no-back{background-color: rgba(0,0,0,0);}
 .rotate{transform: rotate(-90deg);}
 .direction{position:absolute;top:280px;left:290px;}
@@ -93,7 +97,7 @@ img{pointer-events: none;}
   bottom: -80px;
   right:50px;
   z-index: 1000;
-  cursor: pointer;
+  cursor: url(click.png) 52 14, pointer;
   font-size: 120px;
 }
 

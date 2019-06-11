@@ -53,10 +53,10 @@ class Card extends React.Component{
 							<div className='big-text ttl no-line-height'>
 								<p>
 									*&nbsp;<span className={this.state.toggle? 'invisible':''} title='drag'>{`${info[4]}`}_{`${info[1]}`}</span>&nbsp;
-									<span className='f4 pointer'>
-									<span className={this.state.underline? 'underline pointer':''} onClick={click} onMouseOver={hoverIn} onMouseLeave={hoverOut}>
-										{this.state.toggle? '[close]':'[open]'}
-									</span>
+									<span className='f4 clicker'>
+										<span className={this.state.underline? 'underline':''} onClick={click} onMouseOver={hoverIn} onMouseLeave={hoverOut}>
+											{this.state.toggle? '[close]':'[open]'}
+										</span>
 									</span>
 								</p>
 							</div>
