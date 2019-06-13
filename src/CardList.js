@@ -48,6 +48,7 @@ class CardList extends React.Component{
 					Content={this.props.DyBase[i].Content}
 					url={this.props.DyBase[i].url}
 					mCount={this.state.mCount}
+					Link={this.props.DyBase[i].linkTo}
 					/>
 				</div>
 			);

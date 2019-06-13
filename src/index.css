@@ -1,5 +1,5 @@
 html{
-  cursor: url(mouse.png) 15 20, auto;
+  /*cursor: url(mouse.png) 15 20, auto;*/
 }
 body {
   margin: 0;
@@ -11,14 +11,16 @@ body {
 
 /*head*/
 a{text-decoration: none; color: blue;}
-a:hover{text-decoration: underline; cursor: url(click.png) 63 60, pointer;}
+a:hover{
+  text-decoration: underline; 
+  cursor: pointer;}
 .line-height{line-height: 20px;}
 .no-line-height{line-height: 35px}
 .invisible{color:rgba(0,0,0,0);}
 .at-top{position: absolute; width: 100%;}
 
 /*headName*/
-.frame{position: fixed; top: 0px; width: 82px;}
+.frame{position: fixed; top: 0px; width: 150px;}
 .frame-mo{position: fixed; top: 0px; width: 225px;}
 
 /*bb*/
@@ -55,14 +57,14 @@ img{pointer-events: none;}
 .purple-text{color: purple;}
 
 .pointer{
-  cursor: url(click.png) 52 14, pointer; 
+  /*cursor: url(click.png) 52 14, pointer; */
   }
 .mover{
   position: absolute;
-  cursor: url(move.png) 63 60, move;
+  cursor: move;
 }
 .clicker{
-  cursor: url(mouse.png) 15 20, default;   
+  cursor: pointer;   
 }
 .bottom{
   position: absolute; 
@@ -86,7 +88,7 @@ img{pointer-events: none;}
 .list-z{z-index: 2;}
 
 .underline{text-decoration: underline;}
-.cursor-pointer{cursor: url(click.png) 52 14,pointer;}
+/*.cursor-pointer{cursor: url(click.png) 52 14,pointer;}*/
 .no-back{background-color: rgba(0,0,0,0);}
 .rotate{transform: rotate(-90deg);}
 .direction{position:absolute;top:280px;left:290px;}
@@ -97,7 +99,7 @@ img{pointer-events: none;}
   bottom: -80px;
   right:50px;
   z-index: 1000;
-  cursor: url(click.png) 52 14, pointer;
+  /*cursor: url(click.png) 52 14, pointer;*/
   font-size: 120px;
 }
 
@@ -119,3 +121,6 @@ select{border: none;appearance: none;}
 .z1{position:absolute; z-index: 1;}
 
 /*.footblk{position:sticky; bottom: 0px; height: 50px;}*/
+
+.f25{font-size: 32px;}
+.f72{font-size: 13px;}

@@ -46,7 +46,7 @@ class ScrollButton extends React.Component {
     const hoverOut=()=> {if(this.state.underline === true)this.setState({underline:false});}
 
     return (
-      <div className={this.state.display? 'transition blue-text':'transition invisible'}>
+      <div className={this.state.display? 'transition blue-text clicker':'transition invisible clicker'}>
         <p href='#' className={this.state.underline? 'underline ab-up ml4 roboto-400':'ab-up ml4 roboto-400'} onClick={()=>{this.scrollToTop();}} onMouseEnter={hoverIn} onMouseLeave={hoverOut}>↑</p>
       </div>
     );

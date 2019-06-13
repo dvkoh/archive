@@ -28,16 +28,16 @@ class Selector extends Component{
 		return(
 			<div className='abBot roboto-400 f4 ml4 custom-select black-text'>
 			
-				<select id='Category' name='Category' size='0' className={this.state.underline1? 'no-back roboto-700 blue-text underline cursor-pointer':'no-back roboto-700 blue-text cursor-pointer'} defaultValue='work' onChange={func1} onMouseEnter={hoverIn1} onMouseLeave={hoverOut1}>
-					<option value='work' className='big-text black'> work</option>
-					<option value='wip' className='big-text black'> wip</option>
-					<option value='stuff' className='big-text black'> stuff</option>
+				<select id='Category' name='Category' size='0' className={this.state.underline1? 'no-back roboto-700 blue-text underline clicker':'no-back roboto-700 blue-text clicker'} defaultValue='work' onChange={func1} onMouseEnter={hoverIn1} onMouseLeave={hoverOut1}>
+					<option value='work' className='f25 black'> work</option>
+					<option value='wip' className='f25 black'> wip</option>
+					<option value='stuff' className='f25 black'> stuff</option>
 				</select>&nbsp;/&nbsp;
-				<select id='SubCategory' name='SubCategory' size='0' className={this.state.underline2?'no-back blue-text underline cursor-pointer':'no-back blue-text cursor-pointer'} defaultValue='recent' onChange={func2} onMouseEnter={hoverIn2} onMouseLeave={hoverOut2}>
-					<option value='all' className='big-text black'> all</option>
-					<option value='recent' className='big-text black'> recent</option>
+				<select id='SubCategory' name='SubCategory' size='0' className={this.state.underline2?'no-back blue-text underline clicker':'no-back blue-text clicker'} defaultValue='recent' onChange={func2} onMouseEnter={hoverIn2} onMouseLeave={hoverOut2}>
+					<option value='all' className='f25 black'> all</option>
+					<option value='recent' className='f25 black'> recent</option>
 				</select>&nbsp;→&nbsp;&nbsp;
-				<span className={this.state.underline3?'blue-text underline cursor-pointer f3 b':'blue-text cursor-pointer f3 b'} onClick={func3} onMouseEnter={hoverIn3} onMouseLeave={hoverOut3}>↺</span>
+				<span className={this.state.underline3?'blue-text underline clicker f3 b':'blue-text clicker f3 b'} onClick={func3} onMouseEnter={hoverIn3} onMouseLeave={hoverOut3}>↺</span>
 				
 			</div>
 		);
