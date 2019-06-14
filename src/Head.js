@@ -74,7 +74,7 @@ class Head extends React.Component{
 							<br/><a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://www.linkedin.com/in/dvkoh/'>LinkedIn ↗</a>
 							<br/><a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://www.instagram.com/dvkoh/'>Instagram ↗</a>
 							<br/><br/><a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://dvkoh.github.io/portfolio/'>Portfolio ↗</a>
-							<br/><a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://dvkoh.github.io/portfolio/'>Reading List ↗</a>
+							<br/><a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://dvkoh.github.io/booksbooksbooks/'>Reading List ↗</a>
 							</p>
 							<br/>
 						</div>
