@@ -80,7 +80,7 @@ class Head extends React.Component{
 					   		<p className='pt4 tj'>As a design major, I've always been fond of all things that look and feel good.
 								Now an aspiring design researcher, I'm focusing my interests on the user led exploration of novel interactions and technologies. 
 								<br/><br/>This page is an archive of my designs and experiences. <span class='underline'>Designed for PC. Honest to god it looks and works a little better there.</span>
-								<br/><br/>For more on me, &nbsp;<a target="_blank" className='blue-text' href='https://dvkoh.github.io/portfolio/'>portfolio</a>
+								<br/><br/>For more on me,&nbsp;<a target="_blank" className='blue-text' href='https://dvkoh.github.io/portfolio/'>portfolio</a>
 								&nbsp;and&nbsp;<a target="_blank" className='blue-text' href='https://dvkoh.github.io/booksbooksbooks/'>reading list</a>.
 							</p>
 					</div>
