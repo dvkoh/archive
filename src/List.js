@@ -53,8 +53,8 @@ class List extends React.Component{
 								</div>
 								<div className=''>		
 									<p className='calisto f3 ttl'><span className='bg-black white'>{`${info[0]}`}</span></p>
-									<p className='calisto f6 ttl tr line-height'><span className='b'>{`${info[4]}`}</span><br/>/ {`${info[1]}`}<br/>/ {`${info[2]}`}</p>
-									<p className='f5 lline-height'>&nbsp;{nl2br(info[3])}</p>
+									<p className='calisto f7 ttl tr line-height'><span className='b'>{`${info[4]}`}</span><br/>{`${info[1]}`} *<br/>{`${info[2]}`} *</p>
+									<p className='f72 lline-height tj'>{nl2br(info[3])}</p>
 									<span className='pb3'>&nbsp;</span>
 								</div>
 							</div>

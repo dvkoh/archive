@@ -112,7 +112,7 @@ select{border: none;appearance: none;}
 .plsHide{display: none;}
 
 .absol{position: absolute; left:15px;top: 27px; width: 150px;}
-.card-width-mo{width: 90%;}
+.card-width-mo{width: 93%;}
 .img-position-mo{width: 90%;}
 .frame-momo{width: 85%;}
 
@@ -124,3 +124,4 @@ select{border: none;appearance: none;}
 
 .f25{font-size: 32px;}
 .f72{font-size: 13px;}
+.margin-t{padding-top: 62px;}

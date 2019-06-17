@@ -84,9 +84,8 @@ class Main extends Component{
 			</MediaQuery>	
 			
 			<MediaQuery maxDeviceWidth={700}>
-				<div className='yb-mo'></div>
 				<Head/>
-				<div className=''>
+				<div className='ml3'>
 					<ListList sF1={this.state.searchfield1} sF2={this.state.searchfield2} DyBase={filterData}/>
 					<MSelector searchChange1={this.onSearchChange1} searchChange2={this.onSearchChange2} searchRefresh={this.onSearchRefresh}/>		
 				</div>
