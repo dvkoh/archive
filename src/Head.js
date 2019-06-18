@@ -39,8 +39,7 @@ class Head extends React.Component{
 							
 							<p className='w-25 pl4 mr5 tj'>* <a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://id.kaist.ac.kr'>Department of Industrial Design, KAIST</a>, MSc(-ing)
 								<br/>* Researcher member at <a target="_blank" className={this.state.display? 'transition blue-text':'transition invisible'} href='https://cixd.kaist.ac.kr'>CIxD Lab</a>
-								<br/><br/>This page is an archive of my designs and experiences.
-								<br/>For more on me, visit my&nbsp;
+								<br/><br/>This page is an archive of my designs and experiences. For more on me, visit my&nbsp;
 								<a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition blue-text':'transition invisible'}>portfolio</a>
 								&nbsp;and&nbsp;
 								<a target="_blank" href='https://dvkoh.github.io/booksbooksbooks/' className={this.state.display? 'transition blue-text':'transition invisible'}>reading list</a>
