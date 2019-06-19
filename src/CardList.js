@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import Card2 from './Card2'
 
 function dynamicSort(property) {
     var sortOrder = -1;
@@ -33,13 +33,14 @@ class CardList extends React.Component{
 			if(this.props.DyBase[i].Year===2019){count19++;}
 			return (
 				<div>
-					<Card
+					<Card2
 					key={i}
 					Num={i}
 					PosX={250}
 					PosY={document.documentElement.clientHeight-15-67*6+67*i+(2019-this.props.DyBase[i].Year)*67}
 					Code={this.props.DyBase[i].Code} 
-					Year={this.props.DyBase[i].Year}  
+					Year={this.props.DyBase[i].Year}
+					Month={this.props.DyBase[i].Month}  
 					Category={this.props.DyBase[i].Category} 
 					SubCategory={this.props.DyBase[i].SubCategory} 
 					Title={this.props.DyBase[i].Title} 

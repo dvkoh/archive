@@ -16,6 +16,7 @@ a:hover{
   cursor: pointer;}
 .line-height{line-height: 20px;}
 .no-line-height{line-height: 35px}
+.x-line-height{line-height: 0px}
 .invisible{color:rgba(0,0,0,0);}
 .at-top{position: absolute; width: 100%;}
 
@@ -75,12 +76,13 @@ img{pointer-events: none;}
   height: 250vh;
 }
 
-.card-width{width:320px;}
-.img-position{width: 320px;}
+.card-width{width:340px;}
+.img-position{width: 340px;}
 
 /*roboto-font*/
 .roboto-700{font-family: 'Roboto', sans-serif; font-weight: 700;}
 .roboto-400{font-family: 'Roboto', sans-serif; font-weight: 400;}
+/*.roboto-c{font-family: 'Roboto Condensed', sans-serif; line-height: 19px;}*/
 
 /*selector*/
 .abBot{position: fixed; bottom: 30px; z-index: 1000;}

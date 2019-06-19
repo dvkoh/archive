@@ -4,7 +4,7 @@ import MediaQuery from 'react-responsive';
 import nl2br from 'react-newline-to-break'; 
 // import onClickOutside from "react-onclickoutside";
 
-class Card extends React.Component{
+class Card2 extends React.Component{
 	constructor(props){
 		super(props);
 		this.state={
@@ -31,7 +31,7 @@ class Card extends React.Component{
 			this.state.mCount=this.props.mCount;
 		}
 		
-		const info =[this.props.Title, this.props.MainKW, this.props.SubKW, this.props.Content, this.props.Year, this.props.PosX, this.props.PosY, this.props.Num, this.props.url, this.props.link];
+		const info =[this.props.Title, this.props.MainKW, this.props.SubKW, this.props.Content, this.props.Year, this.props.PosX, this.props.PosY, this.props.Num, this.props.url, this.props.link, this.props.Month];
 
 		return(
 			
@@ -42,9 +42,9 @@ class Card extends React.Component{
 				    handle=".handle"
 				    defaultPosition={{x:info[5], y:info[6]}}
 				    position={null}
-				    onStart={Card.handleStart}
-				    onDrag={Card.handleDrag}
-				    onStop={Card.handleStop}
+				    onStart={Card2.handleStart}
+				    onDrag={Card2.handleDrag}
+				    onStop={Card2.handleStop}
 				    onMouseDown={drag}
 				    onTouchEnd={dragstop}>
 				    	<div id={`card${info[7]}`}className='mover handle roboto-400 black-text' style={{zIndex:`${this.state.mCount}`}} onClick={toTop}>
@@ -53,9 +53,10 @@ class Card extends React.Component{
 							<div className='f25 ttl no-line-height'>
 								<p>
 									*&nbsp;<span className={this.state.toggle? 'invisible':''} title='drag'>{`${info[4]}`}_{`${info[1]}`}</span>&nbsp;
-									<span className='f4 clicker'>
+									
+									<span className='f5 clicker'>
 										<span className={this.state.underline? 'underline':''} onClick={click} onMouseOver={hoverIn} onMouseLeave={hoverOut}>
-											{this.state.toggle? '[close]':'[open]'}
+											{this.state.toggle? '↑close↑':'↓open↓'}
 										</span>
 									</span>
 								</p>
@@ -67,9 +68,16 @@ class Card extends React.Component{
 								<img src={`${info[8]}`} alt=''/>
 								</div>
 								<div className=''>		
-									<p className='f25 ttl pa0 ma0 mt2'><span className='white bg-black'>{`${info[0]}`}</span></p>
-									<p className='calisto f7 ttl tr line-height'><span className='bg-white'><span className='b'>{`${info[4]}`}</span><br/>{`${info[1]}`}*<br/> {`${info[2]}`}*</span></p>
-									<p className='f72 lline-height tj'><span className='bg-white'>{nl2br(info[3])}</span></p>
+									<p className='f72 pa0 ma0 mt5 ttl x-line-height'>
+									<span className='white bg-black'>{`${info[4]}`}.{`${info[10]}`}</span>
+									<span className='bg-black black'>gaaap</span>
+									<span className='bg-white white'>gaaap</span>
+									<span className='white bg-black'>{`${info[0]}`}</span>
+									<span className='bg-black black'>gaaap</span>
+									</p>
+									<p className='tj f72 line-height'><br/><span className='bg-white black'>{nl2br(info[3])}</span>
+									<br/><span className='bg-white black'>~{`${info[1]}`} ~{`${info[2]}`}</span>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -83,4 +91,4 @@ class Card extends React.Component{
 		);
 	}
 }
-export default Card;
+export default Card2;
