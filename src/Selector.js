@@ -32,12 +32,11 @@ class Selector extends Component{
 					<option value='work' className='f25 black'> work</option>
 					<option value='wip' className='f25 black'> wip</option>
 					<option value='stuff' className='f25 black'> stuff</option>
-				</select>&nbsp;/&nbsp;
+				</select>&nbsp;:&nbsp;
 				<select id='SubCategory' name='SubCategory' size='0' className={this.state.underline2?'no-back blue-text underline clicker':'no-back blue-text clicker'} defaultValue='recent' onChange={func2} onMouseEnter={hoverIn2} onMouseLeave={hoverOut2}>
 					<option value='all' className='f25 black'> all</option>
 					<option value='recent' className='f25 black'> recent</option>
 				</select>&nbsp;→&nbsp;&nbsp;
-				<span className={this.state.underline3?'blue-text underline clicker f3 b':'blue-text clicker f3 b'} onClick={func3} onMouseEnter={hoverIn3} onMouseLeave={hoverOut3}>↺</span>
 				
 			</div>
 		);
@@ -45,3 +44,5 @@ class Selector extends Component{
 }
 
 export default Selector;
+
+// <span className={this.state.underline3?'blue-text underline clicker f3 b':'blue-text clicker f3 b'} onClick={func3} onMouseEnter={hoverIn3} onMouseLeave={hoverOut3}>↺</span>

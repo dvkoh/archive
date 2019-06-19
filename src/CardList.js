@@ -14,10 +14,13 @@ class CardList extends React.Component{
 	constructor({DyBase}){
 		super();
 		this.state={
-			mCount:'5'
+			mCount:'5',
+			active:''
 		}
 	}
 
+	onActivate=(event)=>{this.setState({active: event.target.id});}
+	onDeactivate=(event)=>{this.setState({active: ''});}
 
 	render(){
 		var mouseCount=this.state.mCount;
@@ -35,8 +38,14 @@ class CardList extends React.Component{
 				<div>
 					<Card2
 					key={i}
+					activeCard={this.state.active}
+					active={this.props.DyBase[i].Title===this.state.active}
+					activate={this.onActivate}
+					deactivate={this.onDeactivate}
+
+
 					Num={i}
-					PosX={250}
+					PosX={220}
 					PosY={document.documentElement.clientHeight-15-67*6+67*i+(2019-this.props.DyBase[i].Year)*67}
 					Code={this.props.DyBase[i].Code} 
 					Year={this.props.DyBase[i].Year}
