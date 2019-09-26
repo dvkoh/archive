@@ -9,18 +9,21 @@ class HeadName extends React.Component{
 		};
 	}
 	changeName = () => {
-		if(this.state.name === 'Dong Yoon')this.setState({name:'David'})
+		if(this.state.name === 'Dongyoon')this.setState({name:'David'})
 		else if(this.state.name === 'David')this.setState({name:'동윤'})
-		else if(this.state.name === '동윤')this.setState({name:'東潤'})
-		else this.setState({name:'Dong Yoon'})
+		else this.setState({name:'Dongyoon'})
 	}
 
 	render(){
+		const hoverIn =()=> {if(this.state.name === 'Dongyoon')this.setState({name:'David'})
+		else if(this.state.name === 'David')this.setState({name:'東潤'})
+		else this.setState({name:'Dongyoon'})}
+
 		return(
 			<div>
 			<MediaQuery minDeviceWidth={700}>
-					<div className='frame flex justify-between roboto-400 black-text f72 ml4 mt3 mb4'>						
-							<p className='' >{this.state.name} <span className='roboto-700'>Koh</span></p>
+					<div className='frame flex justify-between roboto-400 black-text f72 ml4 mt3 pt1 mb4'>						
+							<p className='' onMouseEnter={hoverIn}> {this.state.name} <span className='roboto-700'>Koh</span></p>
 					</div>	
 			</MediaQuery>	
 			</div>

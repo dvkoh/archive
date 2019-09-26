@@ -46,7 +46,7 @@ class CardList extends React.Component{
 
 					Num={i}
 					PosX={220}
-					PosY={document.documentElement.clientHeight-15-67*6+67*i+(2019-this.props.DyBase[i].Year)*67}
+					PosY={document.documentElement.clientHeight-8-67*6+67*(i-1)+(2019-this.props.DyBase[i].Year)*67}
 					Code={this.props.DyBase[i].Code} 
 					Year={this.props.DyBase[i].Year}
 					Month={this.props.DyBase[i].Month}  

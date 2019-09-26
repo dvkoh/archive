@@ -76,12 +76,12 @@ img{pointer-events: none;}
   height: 250vh;
 }
 
-.card-width{width:340px;}
-.img-position{width: 340px;}
+.card-width{width:430px;}
+.img-position{width: 430px;}
 
 /*roboto-font*/
-.roboto-700{font-family: 'Roboto', sans-serif; font-weight: 700;}
-.roboto-400{font-family: 'Roboto', sans-serif; font-weight: 400;}
+.roboto-700{font-family: 'Arial', sans-serif; font-weight: 700;}
+.roboto-400{font-family: 'Arial', sans-serif; font-weight: 400;}
 /*.roboto-c{font-family: 'Roboto Condensed', sans-serif; line-height: 19px;}*/
 
 /*selector*/
