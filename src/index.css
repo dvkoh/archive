@@ -1,5 +1,5 @@
 html{
-  /*cursor: url(mouse.png) 15 20, auto;*/
+  cursor: url(m.png) 31.5 31.5, auto;
 }
 body {
   margin: 0;
@@ -13,7 +13,7 @@ body {
 a{text-decoration: none; color: blue;}
 a:hover{
   text-decoration: underline; 
-  cursor: pointer;}
+  cursor: url(c.png) 31.5 31.5, pointer; }
 .line-height{line-height: 20px;}
 .no-line-height{line-height: 35px}
 .x-line-height{line-height: 0px}
@@ -57,15 +57,15 @@ img{pointer-events: none;}
 .plsHide{display: none;}
 .purple-text{color: purple;}
 
-.pointer{
-  /*cursor: url(click.png) 52 14, pointer; */
-  }
+/*.pointer{
+  cursor: url(click.p31.5 31.54, pointer; 
+  }*/
 .mover{
   position: absolute;
-  cursor: move;
+  cursor: url(mo.png) 31.5 31.5, move;
 }
 .clicker{
-  cursor: pointer;   
+  cursor: url(c.png) 31.5 31.5, pointer;
 }
 .bottom{
   position: absolute; 
@@ -74,6 +74,7 @@ img{pointer-events: none;}
 
 .foot{
   height: 250vh;
+  cursor: url(m.png) 31.5 31.5, auto;
 }
 
 .card-width{width:430px;}
@@ -82,7 +83,6 @@ img{pointer-events: none;}
 /*roboto-font*/
 .roboto-700{font-family: 'Arial', sans-serif; font-weight: 700;}
 .roboto-400{font-family: 'Arial', sans-serif; font-weight: 400;}
-/*.roboto-c{font-family: 'Roboto Condensed', sans-serif; line-height: 19px;}*/
 
 /*selector*/
 .abBot{position: fixed; bottom: 30px; z-index: 1000;}
@@ -90,7 +90,7 @@ img{pointer-events: none;}
 .list-z{z-index: 2;}
 
 .underline{text-decoration: underline;}
-/*.cursor-pointer{cursor: url(click.png) 52 14,pointer;}*/
+/*.cursor-pointer{cursor: url(click.p31.5 31.54,pointer;}*/
 .no-back{background-color: rgba(0,0,0,0);}
 .rotate{transform: rotate(-90deg);}
 .direction{position:absolute;top:280px;left:290px;}
@@ -101,7 +101,7 @@ img{pointer-events: none;}
   bottom: -80px;
   right:50px;
   z-index: 1000;
-  /*cursor: url(click.png) 52 14, pointer;*/
+  cursor: url(c.png) 31.5 31.5, pointer;
   font-size: 120px;
 }
 

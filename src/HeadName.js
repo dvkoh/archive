@@ -8,16 +8,13 @@ class HeadName extends React.Component{
 			name: 'Dongyoon'
 		};
 	}
-	changeName = () => {
-		if(this.state.name === 'Dongyoon')this.setState({name:'David'})
-		else if(this.state.name === 'David')this.setState({name:'동윤'})
-		else this.setState({name:'Dongyoon'})
-	}
 
 	render(){
-		const hoverIn =()=> {if(this.state.name === 'Dongyoon')this.setState({name:'David'})
-		else if(this.state.name === 'David')this.setState({name:'東潤'})
-		else this.setState({name:'Dongyoon'})}
+		const hoverIn =()=> {
+			if(this.state.name === 'Dongyoon')this.setState({name:'David'})
+			else if(this.state.name === 'David')this.setState({name:'東潤'})
+			else this.setState({name:'Dongyoon'})
+		}
 
 		return(
 			<div>
