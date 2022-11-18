@@ -11,7 +11,7 @@
     "react-newline-to-break": "^1.0.6",
     "react-onclickoutside": "^6.8.0",
     "react-responsive": "^6.1.1",
-    "react-scripts": "2.1.8",
+    "react-scripts": "5.0.1",
     "tabletop": "^1.5.2",
     "tachyons": "^4.11.1"
   },
